@@ -1,0 +1,15 @@
+.button {
+  border: none;
+  background: none;
+  width: 13rem;
+  height: 3.5rem;
+  border-radius: 100rem;
+  background: linear-gradient(to right, $Lime-Green, $Bright-Cyan);
+  color: $White;
+  font-family: inherit;
+
+  @media (max-width: 28.125em) {
+    width: 16.5rem;
+    height: 4.5rem;
+  }
+}
